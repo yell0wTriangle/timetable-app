@@ -45,9 +45,9 @@ const DaySchedule = ({ day, schedule }) => (
     <table className="w-full bg-white">
       <thead>
         <tr className="border-b bg-gray-100">
-          <th className="text-left px-6 py-3 text-gray-600 font-medium w-1/4">Time</th>
-          <th className="text-left px-6 py-3 text-gray-600 font-medium w-1/2">Subject</th>
-          <th className="text-right px-6 py-3 text-gray-600 font-medium w-1/4">Room</th>
+          <th className="text-left px-6 py-3 text-gray-600 font-medium">Time</th>
+          <th className="text-left px-6 py-3 text-gray-600 font-medium">Subject</th>
+          <th className="text-right px-6 py-3 text-gray-600 font-medium">Room</th>
         </tr>
       </thead>
       <tbody>
