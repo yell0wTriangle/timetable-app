@@ -72,7 +72,7 @@ const DaySchedule = ({ day, schedule }) => (
 
 const Timetable = () => {
   return (
-    <div className="w-full min-h-screen bg-gray-100 px-4 py-6">
+    <div className="w-full min-h-screen bg-gray-100 px-4 py-6 px-4 py-6 rounded-xl">
       <h1 className="text-3xl font-bold text-center text-gray-800 mb-6">Weekly Class Schedule</h1>
       {Object.entries(timetableData).map(([day, schedule]) => (
         <DaySchedule key={day} day={day} schedule={schedule} />
